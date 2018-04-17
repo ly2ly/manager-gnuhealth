@@ -10,4 +10,4 @@ A command line tool to manage GNU Health installation
 
 # To do: Log and error management
 
-You want to contribute? Fork the project et make a PR.
+You want to contribute? Fork the project and make a PR.
