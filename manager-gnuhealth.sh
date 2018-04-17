@@ -5,7 +5,7 @@
 
 # manage-gnuhealth.sh is a tool to manage your GUNHEALTH installation.
 # You can create, update, drop, backup or restore databases easily
-# Must be excute as root
+# Must be execute as root
 
 # To do: Log and error management
 
