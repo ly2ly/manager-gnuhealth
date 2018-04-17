@@ -9,3 +9,5 @@ A command line tool to manage GNU Health installation
 # Must be execute as root
 
 # To do: Log and error management
+
+You want to contribute? Fork the project et make a PR.
