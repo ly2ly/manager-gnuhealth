@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copyright 2018, APSARL
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License MIT.
 
 # manage-gnuhealth.sh is a tool to manage your GUNHEALTH installation.
 # You can create, update, drop, backup or restore databases easily
