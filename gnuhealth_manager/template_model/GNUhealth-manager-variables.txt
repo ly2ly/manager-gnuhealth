@@ -1,0 +1,41 @@
+## ADMIN PARAMETERS
+# Path to trytond-admin file of your server 
+TRYTON_ADM='/home/gnuhealth/gnuhealth/tryton/server/trytond-4.2.6/bin/trytond-admin'
+# Path to trytond conf file
+TRYTON_CONF='/home/gnuhealth/gnuhealth/tryton/server/config/trytond.conf'
+# Folder where you have all tryton modules
+TRYTON_MODULES='/home/gnuhealth/gnuhealth/tryton/server/modules/*'
+# User who own gnuhealth right
+TRYTON_USER='gnuhealth'
+# Database role
+DB_ROLE='gnuhealth'
+
+
+## SAVE PARAMETERS
+# Folder of the save (must be owned by postgres:gnuhealth)
+SAVE_DIR='/home/gnuhealth/backup'
+# Timestamp of the database save
+DATE_SAVE=`date +%Y-%m-%d`
+# Save extension
+FILE_EXT='.backup'
+
+
+1 - Create a new GNU Health database
+New database name: CREATE_DB_NAME
+
+2 -  Install all modules and update an existing database
+Give database name to update: UPDATE_DB_NAME
+
+3 - Drop an existing database
+Give database name to DROP: DROP_DB_NAME
+
+4 - Backup an existing database
+Give database name to save: DB_SAVE_NAME
+
+5 - Restore a backup database for GNU Health
+Give name of the file to restore: DB_RESTORE_NAME
+Give name of the new database: NEW_DB_NAME
+
+6 - Duplicate a database
+Give database name to duplicate: DB_DUPLICATE_NAME
+Give the new database name: DB_COPY_NAME
